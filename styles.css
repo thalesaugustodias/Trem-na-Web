@@ -94,7 +94,6 @@ html, body{
 }
 
 
-
 /*  NOSSOS DRINKS
 ******************/
 .drinks{
@@ -107,10 +106,6 @@ html, body{
     margin-top: -30px
 }
 
-.drink-text {
-    display: flex;
-    
-}
 /*  FOOTER
 ******************/
 .main-footer{
