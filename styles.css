@@ -1,0 +1,131 @@
+/*  GERAL
+******************/
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #161616;
+    color: white;
+}
+
+.section-background{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.section-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.65);
+    
+}
+
+.section-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-text{
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ancora{
+    position: absolute;
+    top: -85px;
+}
+
+
+/*  HEADER
+******************/
+
+.header-video{
+    width: 100%;
+}
+
+.navigation{
+    width: 100%;  
+    display: flex;
+    justify-content: end;
+    background-color: #3b3b3b;
+    z-index: 100;
+}
+
+.navigation-list{
+    padding: 0;
+}
+
+.navigation-list-item{
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: #0079d0;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+}
+
+
+/*  O LUGAR
+******************/
+.lugar{
+    background-image: url('./images/bar_interior.jpg');
+}
+
+
+
+/*  NOSSOS DRINKS
+******************/
+.drinks{
+    background-image: url('./images/cocktails.jpg');
+}
+
+
+.drink-image{
+    max-width: 30%;
+    margin-top: -30px
+}
+
+.drink-text {
+    display: flex;
+    
+}
+/*  FOOTER
+******************/
+.main-footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    gap: 10px;
+
+}
+.footer-section h1 {
+    margin: 0;
+}
